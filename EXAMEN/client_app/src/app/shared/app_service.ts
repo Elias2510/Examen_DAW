@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class AppService {
-  private apiUrl = 'URL_API_BACKEND'; // înlocuiește cu URL-ul real al API-ului
+  private apiUrl = 'localhost:5001'; 
 
   constructor(private http: HttpClient) {}
 
